@@ -1,7 +1,7 @@
 resource "random_id" "server" {
   keepers = {}
 
-  byte_length = 9
+  byte_length = 7
 }
 
 resource "null_resource" "server" {
